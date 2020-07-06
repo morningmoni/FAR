@@ -1,5 +1,5 @@
 # Facet-Aware Evaluation for Extractive Summarization
-We provide the annotated data and self-contained evaluation scripts for the paper ["Facet-Aware Evaluation for Extractive Summarization"](https://arxiv.org/abs/1908.10383), ACL 2020.
+We provide the annotated data and self-contained evaluation scripts for the paper "Facet-Aware Evaluation for Extractive Summarization" [[Paper]]( https://arxiv.org/abs/1908.10383) [[Slides & Talk]](https://virtual.acl2020.org/paper_main.445.html), ACL 2020.
 
 
 
@@ -11,7 +11,7 @@ Commonly adopted metrics for extractive summarization focus on lexical overlap a
 
 ## Example
 
-<img src="\fig\example.png" alt="example" style="zoom:67%;" />
+<img src="fig/example.png" alt="example" style="zoom:67%;" />
 
 Each facet (reference sentence) is mapped to a list of support groups, where each group consists of one or multiple support sentences. The semantics of one facet is covered as long as one of the support groups is covered.
 
@@ -23,7 +23,7 @@ In the example above, Facet 1 (r1) is covered because document sentence d1/d3 is
 
 We analyzed 150 samples on the CNN/Daily Mail dataset and found that around 1/4 contain noise, and 60% are of low abstraction (suitable for extraction).
 
-![cat](fig\cat.png)
+![cat](fig/cat.png)
 
 
 
